@@ -3,20 +3,6 @@
 A fully functional **ATM simulation system** built using **Object-Oriented Programming (OOP)** principles in Java.  
 This project includes **PIN-based authentication**, **transaction history**, **deposit/withdraw**, and a **modular multi-file structure**, making it ideal for **job applications, GitHub portfolios, and learning OOP concepts**.
 
----
-
-## 📂 Project Structure
-
-
-
-ATM-Project/
-├── Main.java
-├── ATM.java
-├── Account.java
-├── Transaction.java
-└── utils/
-└── InputValidator.java
-
 
 ---
 
