@@ -1,4 +1,6 @@
-💳 Advanced ATM System (Java OOP Project)
+**💳 Advanced ATM System (Java OOP Project)**
+
+
 A fully functional ATM simulation system built using Object-Oriented Programming (OOP) principles in Java.
 This project includes PIN-based authentication, transaction history, deposit/withdraw, and a modular multi-file structure, making it suitable for job applications, GitHub portfolios, and learning OOP concepts.
 
@@ -106,9 +108,9 @@ You can enhance this project with:
 
 Your Name
 Java Developer | DevOps | Cloud Engineer
-📧 your.email@example.com
+📧 sangisett.dhanush.work@gmail.com
 
-🔗 GitHub: https://github.com/yourusername
+🔗 GitHub: https://github.com/Dhanushbablu630
 
 ⭐ Like this project?
 
