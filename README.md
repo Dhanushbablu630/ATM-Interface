@@ -1,8 +1,13 @@
-**💳 Advanced ATM System (Java OOP Project)**
+# 💳 Advanced ATM System (Java OOP Project)
+
+A fully functional **ATM simulation system** built using **Object-Oriented Programming (OOP)** principles in Java.  
+This project includes **PIN-based authentication**, **transaction history**, **deposit/withdraw**, and a **modular multi-file structure**, making it ideal for **job applications, GitHub portfolios, and learning OOP concepts**.
+
+---
+
+## 📂 Project Structure
 
 
-A fully functional ATM simulation system built using Object-Oriented Programming (OOP) principles in Java.
-This project includes PIN-based authentication, transaction history, deposit/withdraw, and a modular multi-file structure, making it suitable for job applications, GitHub portfolios, and learning OOP concepts.
 
 ATM-Project/
 ├── Main.java
@@ -10,9 +15,13 @@ ATM-Project/
 ├── Account.java
 ├── Transaction.java
 └── utils/
-     └── InputValidator.java
+└── InputValidator.java
 
-     
+
+---
+
+## 📝 File Details
+
 | File                    | Purpose                                          |
 | ----------------------- | ------------------------------------------------ |
 | **Main.java**           | Entry point of the application                   |
@@ -21,47 +30,41 @@ ATM-Project/
 | **Transaction.java**    | Transaction model (for future enhancements)      |
 | **InputValidator.java** | Utility class for validating inputs              |
 
+---
 
-✨ Features
-✅ Secure Login
+## ✨ Features
 
-3 PIN attempts
+### ✅ Secure Login
+- 3 PIN attempts  
+- Auto exit after failed authentication  
+- Easy PIN modification in `Account.java`
 
-Automatic exit after failed attempts
+### 💵 Banking Operations
+- Withdraw  
+- Deposit  
+- Check balance  
+- View transaction history  
 
-Easy to modify PIN in Account.java
+### 📜 Transaction History
+Stores logs for:
+- Deposit  
+- Withdrawal  
+- (Optional) Timestamps  
 
-💵 Banking Operations
+### 🧱 Clean OOP Design
+- Encapsulation  
+- Modular class structure  
+- Easy to extend (multiple accounts, DB support, etc.)
 
-Withdraw
+---
 
-Deposit
+## 🚀 How to Run This Project
 
-Check balance
-
-View transaction history
-
-📜 Transaction History
-
-Stores:
-
-Deposit logs
-
-Withdrawal logs
-
-Timestamp support (optional for extension)
-
-🧱 Clean OOP Design
-
-Encapsulation
-
-Classes divided by responsibility
-
-
-🚀 How to Run This Project
-1. Clone the Repository
-git clone https://github.com/yourusername/ATM-Project.git
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/Dhanushbablu630/ATM-Project.git
 cd ATM-Project
+
 
 2. Compile the Java Files
 javac Main.java ATM.java Account.java Transaction.java utils/InputValidator.java
